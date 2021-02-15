@@ -1,0 +1,62 @@
+{
+    "editor.fontFamily": "'Cascadia Mono', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 12,
+    "editor.fontWeight": "500",
+    "terminal.integrated.fontSize": 12,
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "powershell.integratedConsole.showOnStartup": false,
+    "git.autofetch": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "vim.leader": "<,>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.formatOnSave": false,
+    "editor.formatOnSaveMode": "modifications",
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.decorations.colors": true,
+    "workbench.editor.decorations.badges": true,
+    "powershell.promptToUpdatePowerShell": false
+}
