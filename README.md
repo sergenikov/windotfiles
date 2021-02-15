@@ -1,2 +1,2 @@
 # windotfiles
-Windows Setup and Configuration
+My personal Windows Setup and Configuration
