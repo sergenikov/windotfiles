@@ -10,6 +10,6 @@ function Save-VsCodeConfig
 {
     Copy-Item `
         "$env:APPDATA/Code - Insiders/User/settings.json" `
-        -Destination $PSScriptRoot/vscode.config.json
+        -Destination "$PSScriptRoot/vscode.config.json"
 
 }
